@@ -7,7 +7,7 @@ describe '#show_convert_length' do
   context '1メートルをインチに変換する場合' do
 
     it '39.37であること' do
-      expect(converted_length.show_convert_length(1, 'm', 'in')).to eq 39.37
+      expect(converted_length.show_convert_length(1, :m, :in)).to eq 39.37
     end
   end
 
