@@ -5,10 +5,8 @@ class Ticket
     @stamped_at = name
   end
 
-  private
-
-    def initialize(fare)
-      # 購入額
-      @fare = fare
-    end
+  def initialize(fare)
+    # 購入額
+    @fare = fare
+  end
 end
