@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'fizz_buzz'
+require './lib/fizz_buzz'
 
 describe '#ptint_fizz_buzz' do
   let(:fizz_buzz) { FizzBuzz.new }

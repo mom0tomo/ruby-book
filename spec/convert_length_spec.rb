@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'convert_length'
+require './lib/convert_length'
 
 describe '#show_convert_length' do
   let(:converted_length) { ConvertLength.new }

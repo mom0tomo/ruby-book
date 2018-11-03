@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'convert_hash_syntax'
+require './lib/convert_hash_syntax'
 
 describe '#show_converted_hash_syntax' do
   let(:correct_syntax) do

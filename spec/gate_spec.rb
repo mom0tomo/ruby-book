@@ -1,6 +1,6 @@
 require 'spec_helper'
-require 'gate'
-require 'ticket'
+require './lib/gate'
+require './lib/ticket'
 
 describe '#exit' do
   let(:umeda) { Gate.new(:umeda) }

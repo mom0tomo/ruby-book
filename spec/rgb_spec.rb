@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'rgb'
+require './lib/rgb'
 
 describe '#to_hex' do
   let(:rgb) { Rgb.new }
